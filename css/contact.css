@@ -1,0 +1,17 @@
+.main_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    width: 100%;
+}
+
+.Flex-item + .Flex-item {
+    border-left: solid 1px white;
+}
+
+.Flex-item {
+    flex: 1 1 auto;
+    position: relative;
+    text-align: center;
+}
