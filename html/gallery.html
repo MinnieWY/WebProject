@@ -3,25 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog-Home</title>
+    <title>Photo Gallery</title>
     <link rel="icon" href="../image/logo.png" type="image/icon type">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/structure.css">
+    <link rel="stylesheet" href="../css/gallery.css">
 </head>
 <body>
     <ul class="nav">
-        <li><a class="active" href="./index.html"><span class="material-icons-outlined">home</span>Minnie's Blog</a></li>
+        <li><a href="./index.html"><span class="material-icons-outlined">home</span>Minnie's Blog</a></li>
         <li><a href="./portfolio.html"><span class="material-icons-outlined">inventory_2</span>Portfolio</a></li>
+        <li><a class="active" href="./gallery.html"><span class="material-icons-outlined">collections</span>Photo Gallery</a></li>
         <li><a href="./contact.html"><span class="material-icons-outlined">contact_page</span>Contact</a></li>
-        <li><a href="./gallery.html"><span class="material-icons-outlined">collections</span>Photo Gallery</a></li>
         <li><a href="../CHANGELOG.md"><span class="material-icons-outlined">receipt_long</span>Change Log</a></li>
     </ul>
-    <div class="main_content">
-
-        
-
+    
+    <div id="gallery">
+        <ul>
+            <li>
+                <img src="../image/image1.jpg" width="250">
+                <p>#Lam Tei Reservoir, TuenMun</p>
+                <p>#2021.7.10</p>
+            </li>
+            <li>
+                <img src="../image/image2.jpg" width="250">
+                <p>#Lung Kwu Tan, TuenMun</p>
+                <p>#2021.7.10</p>
+            </li>
+            <li>
+                <img src="../image/image3.jpg" width="250">
+                <p>#Vitoria Harbour, Tsim Sha Tsui</p>
+                <p>#2021.7.13</p>
+            </li>
+        </ul>
     </div>
+    <div class="light"></div>
+
+
+
     <footer>
         <div class="footer-container">
             <div class="Flex-item">
@@ -29,14 +49,14 @@
                 
             </div>
             <div class="Flex-item">
-                <p>Sitemap</p>
                 <a href="./index.html">Home</a>
                 <a href="./portfolio.html">Portfolio</a>
+                <a href="./gallery.html">Photo Gallery</a>
                 <a href="./contact.html">Things about Author</a>
             </div>
         </div>
         <div class="copyright">
-            <p>© Minnie W. Y.  2022</p>
+            <p>© Minnie W. Y. 2022</p>
         </div>
     </footer>
 </body>
