@@ -1,3 +1,8 @@
+# 0.3.0 (2nd March, 2022)
+### Login function
+* HTML, CSS and Javascript
+
+
 # 0.2.1 (22nd January, 2022)
 ### Bug Fixing
 * Inproper placing item of footer
